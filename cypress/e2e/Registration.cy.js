@@ -8,7 +8,7 @@ describe("Registration2", () => {
     cy.get("div.cdk-overlay-container mat-icon").click();
     cy.get("#newCustomerLink > a").click();
     cy.get("mat-form-field.ng-tns-c119-13 div.mat-form-field-infix").click();
-    cy.get("#emailControl").type("romawr4@bigmir.net");
+    cy.get("#emailControl").type("romawr7@bigmir.net");
     cy.get("#passwordControl").click();
     cy.get("#passwordControl").type("188800r");
     cy.get("mat-form-field.ng-tns-c119-15 div.mat-form-field-infix").click();
